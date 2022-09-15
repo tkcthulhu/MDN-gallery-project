@@ -10,11 +10,11 @@ const images = ['../images/pic1.jpg', '../images/pic2.jpg', '../images/pic3.jpg'
 /* Declaring the alternative text for each image file */
 
 const altTXT = {
-  '../pic1.jpg' : 'Dis be an eyeball',
-  '../pic2.jpg' : 'Melty rock thing',
-  '../pic3.jpg' : 'So according to Dungeon and Daddies, the purple ones make you levitate and the white ones make you forget the last 5 minutes',
-  '../pic4.jpg' : 'Stage of the 1999 cinematic masterpiece \"The Mummy\" starring Brendan fraser and Rachel Weisz.', 
-  '../pic5.jpg' : 'Hail Mothra'
+  '../images/pic1.jpg' : 'Dis be an eyeball',
+  '../images/pic2.jpg' : 'Melty rock thing',
+  '../images/pic3.jpg' : 'So according to Dungeon and Daddies, the purple ones make you levitate and the white ones make you forget the last 5 minutes',
+  '../images/pic4.jpg' : 'Stage of the 1999 cinematic masterpiece \"The Mummy\" starring Brendan fraser and Rachel Weisz.', 
+  '../images/pic5.jpg' : 'Hail Mothra'
 };
 
 /* Looping through images */
