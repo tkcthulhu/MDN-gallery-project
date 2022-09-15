@@ -3,9 +3,16 @@ const thumbBar = document.querySelector('.thumb-bar');
 
 const btn = document.querySelector('button');
 const overlay = document.querySelector('.overlay');
+const imagePath = 'https://raw.githubusercontent.com/tkcthulhu/MDN-gallery-project/main/images/'
 
 
-const images = ['../images/pic1.jpg', '../images/pic2.jpg', '../images/pic3.jpg', '../images/pic4.jpg', '../images/pic5.jpg'];
+const images = [
+    `${imagePath}pic1.jpg`, 
+    `${imagePath}pic2.jpg`, 
+    `${imagePath}pic3.jpg`, 
+    `${imagePath}pic4.jpg`, 
+    `${imagePath}pic5.jpg`
+];
 
 /* Declaring the alternative text for each image file */
 
