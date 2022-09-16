@@ -26,14 +26,14 @@ const altTXT = {
 
 /* Looping through images */
 
-for (let i = 0; i < 5; i++) {
-const newImage = document.createElement('img');
-newImage.setAttribute('src', images[i]);
-newImage.setAttribute('alt', altTXT[i]);
-thumbBar.appendChild(newImage);
-newImage.addEventListener('click', () => {
-    displayedImage.setAttribute('src', images[i]);
-    displayedImage.setAttribute('alt', images[i]);
+for (let i = 0; i < images.length; i++) {
+    const newImage = document.createElement('img');
+    newImage.setAttribute('src', images[i]);
+    newImage.setAttribute('alt', altTXT[i]);
+    thumbBar.appendChild(newImage);
+    newImage.addEventListener('click', () => {
+        displayedImage.setAttribute('src', images[i]);
+        displayedImage.setAttribute('alt', images[i]);
 });
 };
 
